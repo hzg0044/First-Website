@@ -1,0 +1,46 @@
+ /* allows for centrering*/
+
+ .text-center {
+                text-align: center;
+            }
+        
+/* allows from background changes*/
+body {background-color: #ff0;
+    background-image: url("IMG_8347.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+        font-family: 'Verdania', sans-serif}
+ /*secton allows for background color, padding, and margin changes*/
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section.intro {
+    background-color: #bc13fe;
+}
+/*spacing for headers*/
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+footer {
+    margin-top: 500px;
+    margin-bottom: 20px;
+}
+/*image spacing*/
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
